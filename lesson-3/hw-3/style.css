@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.paragraph {
+    font-style: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.heading {
+    font-style: 64px;
+    color: #1F3F68;
+}
+
+.heading2-ct {
+    font-weight: 500;
+    font-style: 44px;
+    text-align: center;
+}
+
+.heading3 {
+    font-style: 36px;
+    text-align: center;
+}
+
+.heading4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.button {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
