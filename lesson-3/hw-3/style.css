@@ -3,24 +3,24 @@ body {
 }
 
 .paragraph {
-    font-style: 16px;
+    font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
 }
 
 .heading {
-    font-style: 64px;
+    font-size: 64px;
     color: #1F3F68;
 }
 
 .heading2-ct {
     font-weight: 500;
-    font-style: 44px;
+    font-size: 44px;
     text-align: center;
 }
 
 .heading3 {
-    font-style: 36px;
+    font-size: 36px;
     text-align: center;
 }
 
