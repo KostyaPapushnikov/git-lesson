@@ -1,5 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
+}
+
+.link-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph-head {
+    width: 425px;
 }
 
 .paragraph {
@@ -9,6 +28,7 @@ body {
 }
 
 .heading {
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
@@ -19,9 +39,41 @@ body {
     text-align: center;
 }
 
+.what-we-do {
+    font-size: 36px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.sth-card {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    width: 359px;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
 .heading3 {
     font-size: 36px;
     text-align: center;
+}
+
+.footer-h3 {
+    width: 495px;
+}
+
+.footer-heading3 {
+    width: 340px;
+}
+
+.footer-info-num-mail {
+    display: flex;
+    justify-content: space-around;
 }
 
 .heading4 {
@@ -47,4 +99,17 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.middle__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle__block-bd {
+    border: 1px solid #000;
+}
+
+.lstn {
+    list-style-type: none;
 }
