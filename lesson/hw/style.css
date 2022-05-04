@@ -8,12 +8,12 @@ body {
 }
 
 .top {
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -35,6 +35,7 @@ body {
     background-image: url(img/top__back.png);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .top__button {
@@ -186,7 +187,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    min-width: 100vh;
     margin-top: 112px;
     background: #316099;
 }
@@ -285,6 +286,120 @@ body {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.4;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right 280px;
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .footer__text {
+        width: 336px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+    }
+
+    .footer_text_box {
+        margin-bottom: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 667px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top__heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .top__text {
+        width: 100%;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 4px 8px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+    }
+
+    .what-we-do {
+        padding-top: 48px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .project__text {
+        width: 100%;
+    }
+
+    .project__text {
+        font-weight: 400;
+        font-size: 16px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__text_item {
+        left: 16px;
+        margin-top: 16px;
+    }
+
+    .project__item__margin {
+        margin: 0;
+    }
+
+    .project__parent {
+        flex-direction: column;
+    }
 }
 
 .heading2-ct {
